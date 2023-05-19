@@ -1,3 +1,23 @@
+header .container-fluid{
+    height: 60px;
+}
 
+form{
+    width: 80%;
+}
+.main-section{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: purple;
+}
 
+aside{
+    background-color: blue;
+    flex-basis: 40px;
+}
 
+@media screen and (min-width: 992px) {
+    aside{
+        flex-basis: 200px;
+    }
+}
