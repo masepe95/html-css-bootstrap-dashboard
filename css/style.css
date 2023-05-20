@@ -1,9 +1,24 @@
+/* UTILITIES */
+.bg-darkblue{
+  background-color: #165bba;
+}
+
+.fa-bell {
+  color: #ff8f00 ;
+}
+
+.sidebar-item:hover{
+background-color: rgba(255, 255, 255, 0.5);
+cursor: pointer;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
 /*  Header  */
 #navbar img {
     height: 50px;
-  }
-  .fa-bell {
-    color: #ff8f00 ;
   }
   
   /*  MAIN */
@@ -19,7 +34,6 @@
     text-decoration: none;
   }
   
-  
   header #navbar {
     min-height: 80px;
     background-color: darkcyan;
@@ -30,6 +44,8 @@
     background-color: #051e34;
     color: white;
   }
+
+  /* MAIN-CONTENT */
   #main-content {
     height: calc(100vh - 80px);
     color: white;
@@ -46,10 +62,6 @@
   .main-content-topbar a i{
     vertical-align: middle;
     font-size: 34px;
-  }
-
-  .bg-darkblue{
-    background-color: #165bba;
   }
 
   tbody tr td img{
