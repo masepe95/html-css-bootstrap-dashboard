@@ -51,6 +51,11 @@
   .bg-darkblue{
     background-color: #165bba;
   }
+
+  tbody tr td img{
+    width: 40px;
+    padding-right: 10px;
+  }
   
   /* RESPONSIVE MEDIAQUERY */
   @media screen and (min-width: 992px) {
