@@ -56,7 +56,14 @@
     width: 40px;
     padding-right: 10px;
   }
+
+  nav i{
+    cursor: pointer;
+  }
   
+  .offcanvas{
+    --bs-offcanvas-width: 100%;
+  }
   /* RESPONSIVE MEDIAQUERY */
   @media screen and (min-width: 992px) {
     #sidebar {
@@ -64,5 +71,8 @@
     }
     .sidebar-item i {
       width: 30px;
+    }
+    .offcanvas{
+      --bs-offcanvas-width: 650px;
     }
   }
