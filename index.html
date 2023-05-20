@@ -78,28 +78,28 @@
             <section id="main-content">
                 <!-- **************** MAIN TOP BAR ******************** -->
                 <div class="container-fluid bg-primary">
-                    <div class="row row-cols-1 row-cols-md-3 align-items-center">
-                        <div class="col py-3 order-1 order-md-3">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-4 col-lg-2 py-3 order-1 order-md-3">
                             <div class="offcanvas-selector">
                                 <a class="fs-5" href="#">Nuovo Studente <i class="bi bi-plus-square text-white ms-4"></i> </a>
                             </div>
                         </div>
-                        <div class="col py-3 order-2 order-md-1">
+                        <div class="col-12 col-md-4 col-lg-6 py-3 order-2 order-md-1">
                             <h5 class="">Boolean <span class="badge rounded-pill bg-darkblue">Piano blaze</span></h5>
                             <span><span class="badge rounded-pill bg-darkblue">3 app</span><i class="bi bi-chevron-double-right"></i><span class="badge rounded-pill bg-darkblue d-lg-none">+</span>
                             <span class="badge rounded-pill bg-darkblue d-none d-lg-inline">Boolean mobile app</span><span class="badge rounded-pill bg-darkblue d-none d-lg-inline">Boolean web app</span><span class="badge rounded-pill bg-darkblue d-none d-lg-inline">Boolean blog app</span></span>
                         </div>
-                        <div class="col py-3 order-3 order-md-2">
+                        <div class="col-12 col-md-4 col-lg-4 py-3 order-3 order-md-2">
                             <h6>Studenti online negli ultimi 30 minuti</h6>
                             <span class="fs-2">125</span>
                         </div>
                     </div>
                 </div>
                 <div class="container-fluid">
-                    <div class="row row-cols-1">
+                    <div class="row row-cols-1 g-4">
                         <!-- ****************TABLE******************** -->
-                        <div class="col">
-                            <div class="card">
+                        <div class="col col-lg-9 py-3">
+                            <div class="card mb-3">
                                 <div class="card-header">
                                   Featured
                                 </div>
@@ -134,59 +134,51 @@
                                         </tbody>
                                       </table>
                                 </div>
-                              </div>
-                        </div>
+                            </div>
                         <!-- ****************ACCORDION******************** -->
-                        <div class="col">
                             <div class="card">
                                 <div class="card-header">
                                   Featured
                                 </div>
                                 <div class="card-body">
-                                    <div class="accordion" id="accordionExample">
+                                    <div class="accordion accordion-flush" id="accordionFlushExample">
                                         <div class="accordion-item">
-                                          <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                          <h2 class="accordion-header" id="flush-headingOne">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                                               Accordion Item #1
                                             </button>
                                           </h2>
-                                          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                            </div>
+                                          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
                                           </div>
                                         </div>
                                         <div class="accordion-item">
-                                          <h2 class="accordion-header" id="headingTwo">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                          <h2 class="accordion-header" id="flush-headingTwo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                                               Accordion Item #2
                                             </button>
                                           </h2>
-                                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                            </div>
+                                          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
                                           </div>
                                         </div>
                                         <div class="accordion-item">
-                                          <h2 class="accordion-header" id="headingThree">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                          <h2 class="accordion-header" id="flush-headingThree">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                                               Accordion Item #3
                                             </button>
                                           </h2>
-                                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                            </div>
+                                          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
                                           </div>
                                         </div>
-                                      </div>
+                                    </div>     
                                 </div>
-                              </div>
+                            </div>
                         </div>
                         <!-- ****************CHECKLIST******************** -->
-                        <div class="col">
-                            <div class="card">
+                        <div class="col col-lg-3 py-3">
+                            <div class="card mb-3">
                                 <div class="card-header">
                                   Featured
                                 </div>
@@ -207,10 +199,8 @@
                                       </ul>
                                 </div>
                               </div>
-                        </div>
                         <!-- ****************GRAPH******************** -->
-                        <div class="col">
-                            <div class="card" style="width: 18rem;">
+                            <div class="card">
                                 <img src="img/stats.jpeg" class="card-img-top" alt="graph">
                                 <div class="card-body">
                                   <h5 class="card-title">Card title</h5>
