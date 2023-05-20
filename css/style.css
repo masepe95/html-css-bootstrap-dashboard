@@ -1,29 +1,23 @@
-/* UTILITIES */
+/*********** UTILITIES **************/
 .bg-darkblue{
   background-color: #165bba;
 }
-
 .fa-bell {
   color: #ff8f00 ;
 }
-
 .sidebar-item:hover{
 background-color: rgba(255, 255, 255, 0.5);
 cursor: pointer;
 }
-
 .pointer{
   cursor: pointer;
 }
-
-/*  Header  */
+/***********  HEADER  *************/
 #navbar img {
     height: 50px;
   }
-  
   /*  MAIN */
   /* Sidebar */
-  
   #sidebar > div {
     height: 100%;
   }
@@ -33,7 +27,6 @@ cursor: pointer;
   .sidebar-item a {
     text-decoration: none;
   }
-  
   header #navbar {
     min-height: 80px;
     background-color: darkcyan;
@@ -44,15 +37,16 @@ cursor: pointer;
     background-color: #051e34;
     color: white;
   }
-
-  /* MAIN-CONTENT */
+  nav i{
+    cursor: pointer;
+  }
+  /***********  MAIN CONTENT  *************/
   #main-content {
     height: calc(100vh - 80px);
     color: white;
     width: 100%;
     overflow-y: auto;
   }
-
   .offcanvas-selector a{
     text-decoration: none;
     color: white;
@@ -63,20 +57,14 @@ cursor: pointer;
     vertical-align: middle;
     font-size: 34px;
   }
-
   tbody tr td img{
     width: 40px;
     padding-right: 10px;
   }
-
-  nav i{
-    cursor: pointer;
-  }
-  
   .offcanvas{
     --bs-offcanvas-width: 100%;
   }
-  /* RESPONSIVE MEDIAQUERY */
+  /***********  RESPONSIVE  *************/
   @media screen and (min-width: 992px) {
     #sidebar {
       min-width: 130px;
