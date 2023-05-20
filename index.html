@@ -83,15 +83,78 @@
                 <div class="container-fluid bg-primary">
                     <div class="row align-items-center">
                         <div class="col-12 col-md-4 col-lg-2 py-3 order-1 order-md-3">
+                            <!-- *********** OFFCANVAS ********** -->
                             <div class="offcanvas-selector"><span class="pe-2">Nuovo Studente </span>
                                 <button class="btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button> <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel"><div class="offcanvas-header"> <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button></div><div class="offcanvas-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quis deserunt maiores qui, sit, voluptatem vitae totam nostrum dignissimos in, cupiditate blanditiis. Ab aliquam deserunt dolorum distinctio esse, nisi dignissimos?
-                                Temporibus perferendis consectetur, eius iste voluptate, esse omnis dolore, suscipit sapiente facere nobis quos error vel harum odio voluptates libero? Aperiam ipsa dignissimos autem, nam blanditiis distinctio ipsam. Officia, sint!
-                                Dignissimos, doloremque corporis. Maiores consequuntur, quae ullam laudantium distinctio magni ratione! Porro, odio. Aspernatur ipsam tenetur ex eius dignissimos, ratione, assumenda asperiores hic odit officia nostrum modi excepturi qui! Officia.
-                                Sapiente vitae ad tenetur voluptatibus harum quo at cumque suscipit provident ab assumenda, libero deleniti? Rerum deserunt dolorum sequi enim quisquam laboriosam dolores debitis nam dolorem earum delectus, aut labore!
-                                Aliquam facilis atque perferendis qui in reiciendis veniam praesentium laborum maxime, dolorem placeat, a ullam voluptas? Architecto, cumque earum reiciendis blanditiis cupiditate debitis saepe ab dolorum delectus iusto, incidunt quas.</div></div>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button></div>
+                                <div class="offcanvas-body">
+                                    <form class="row g-3">
+                                        <div class="col-12 col-lg-6">
+                                          <label for="inputNAME" class="form-label">Nome</label>
+                                          <input type="text" class="form-control" id="inputNAME4">
+                                        </div>
+                                        <div class="col-12 col-lg-6">
+                                          <label for="inputLASTNAME" class="form-label">Cognome</label>
+                                          <input type="text" class="form-control" id="inputLASTNAME">
+                                        </div>
+                                        <div class="col-12 col-lg-6">
+                                          <label for="inputEMAIL" class="form-label">E-Mail</label>
+                                          <input type="email" class="form-control" id="inputEMAIL" placeholder="E-mail">
+                                        </div>
+                                          <div class="col-12 col-lg-6">
+                                            <label for="inputPASSWORD" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="inputPASSWORD">
+                                        </div>
+                                        <div class="col-12 col-lg-6">
+                                            <label for="inputEMAIL2" class="form-label">Indirizzo E-Mail</label>
+                                            <input type="email" class="form-control" id="inputEMAIL2" placeholder="E-mail">
+                                        </div>
+                                        <div class="col-12 col-lg-6">
+                                            <label for="inputPASSWORD2" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="inputPASSWORD2">
+                                        </div>
+                                        <div class="col-12 col-lg-12">
+                                          <label for="inputAddress" class="form-label">Indirizzo</label>
+                                          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                                        </div>
+                                        <div class="col-12 col-lg-4">
+                                            <label for="inputCity" class="form-label">Città</label>
+                                          <input type="text" class="form-control" id="inputCity" placeholder="Milano">
+                                        </div>
+                                        <div class="col-12 col-lg-4">
+                                            <label for="inputState" class="form-label">Stato</label>
+                                            <select id="inputState" class="form-select">
+                                              <option selected>Italia</option>
+                                              <option>Extra-UE</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-12 col-lg-4">
+                                              <label for="inputZIP" class="form-label">CAP</label>
+                                            <input type="text" class="form-control" id="inputZIP" placeholder="00179">
+                                        </div>
+                                        <div class="col-12">
+                                              <label for="inputFile" class="form-label">Foto</label>
+                                            <input type="file" class="form-control" id="inputFile" placeholder="Nessun file selezionato">
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Seleziona per proseguire
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                          <button type="submit" class="btn btn-primary">Salva</button>
+                                          <button type="reset" class="btn btn-warning">Svuota</button>
+                                        </div>
+                                    </form>
+
+                                </div>
+                            </div>
                             </div>
                         </div>
+                        <!-- *********** OFFCANVAS END ********** -->
                         <div class="col-12 col-md-4 col-lg-6 py-3 order-2 order-md-1">
                             <h5 class="">Boolean <span class="badge rounded-pill bg-darkblue">Piano blaze</span></h5>
                             <span><span class="badge rounded-pill bg-darkblue">3 app</span><i class="bi bi-chevron-double-right"></i><span class="badge rounded-pill bg-darkblue d-lg-none">+</span>
